@@ -29,26 +29,31 @@ Caracterizar um rank detalhado com os três heróis com o maior número de *kill
 
 Para a realização deste trabalho os dados necessários para a análise foram retirados do repositório [Dota 2 Matches](https://www.kaggle.com/datasets/devinanzelmo/dota-2-matches) localizado na plataforma Kaggle.
 
+![Resultado Final](https://github.com/sunfreitas/puc-rio-mvp-iii-data-science-analytics/blob/main/Screenshot%20from%202023-10-01%2022-58-39.png)
+
 ### 2. Coleta
 
-Após a seleção dos conjuntos de arquivos - *players.csv*, *heroes.csv* e *matches.csv*, o download destes foi realizado para o computador local. Em seguida foi criado um **S3 Bucket** na **Amazon AWS**, onde o 
-upload dos arquivos citados anteriormente foram armazenados por meio de upload.
+Após a seleção dos conjuntos de arquivos - *players.csv*, *heroes.csv* e *matches.csv*, o download destes foi realizado para o computador local. Em seguida foi criado um **S3 Bucket** na **Amazon AWS**, onde o upload dos arquivos citados anteriormente foram armazenados por meio de upload.
+
+![Resultado Final](https://github.com/sunfreitas/puc-rio-mvp-iii-data-science-analytics/blob/main/Screenshot%20from%202023-10-01%2022-58-39.png)
 
 ### 3. Modelagem
-Nesta etapa foi utilziado o **AWS Glue**, o qual ficou responsável pela extração, transformação e carga dos dados. 
+Nesta etapa foi utilziado o **AWS Glue**, o qual ficou responsável pela extração, transformação e carga dos dados.
+
+![Resultado Final](https://github.com/sunfreitas/puc-rio-mvp-iii-data-science-analytics/blob/main/Screenshot%20from%202023-10-01%2022-58-39.png)
 
 ### 4. Carga
 
-
+![Resultado Final](https://github.com/sunfreitas/puc-rio-mvp-iii-data-science-analytics/blob/main/Screenshot%20from%202023-10-01%2022-58-39.png)
 
 #### 4.1. Qualidade dos Dados
 
 Os dados adquiridos no repositório [Dota 2 Matches](https://www.kaggle.com/datasets/devinanzelmo/dota-2-matches) a princípio não apresentou problemas de qualidade dos dados. Porém, o campo 
 **radiant_win**, que seria utilizado para calcular a quantidade de vitórias em um dos lados da arena do jogo, está definido com os valores True e False mas estão armazenados como strings.
-
+![Resultado Final](https://github.com/sunfreitas/puc-rio-mvp-iii-data-science-analytics/blob/main/Screenshot%20from%202023-10-01%2022-58-39.png)
 #### 4.2. Solução do Problema
 
-[Resultado Final](https://github.com/sunfreitas/puc-rio-mvp-iii-data-science-analytics/blob/main/Screenshot%20from%202023-10-01%2022-58-39.png)
+![Resultado Final](https://github.com/sunfreitas/puc-rio-mvp-iii-data-science-analytics/blob/main/Screenshot%20from%202023-10-01%2022-58-39.png)
 
 ## APÊNDICES
 
