@@ -44,7 +44,7 @@ Nesta etapa foi utilziado o **AWS Glue**, o qual ficou responsável pela extraç
 
 ### 4. Carga
 
-![Resultado Final](https://github.com/sunfreitas/puc-rio-mvp-iii-data-science-analytics/blob/main/Screenshot%20from%202023-10-01%2022-58-39.png)
+![Resultado Final](https://github.com/sunfreitas/puc-rio-mvp-iii-data-science-analytics/blob/main/Screenshot%20from%202023-10-01%2022-59-55.png)
 
 #### 4.1. Qualidade dos Dados
 
