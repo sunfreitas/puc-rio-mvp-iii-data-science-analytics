@@ -1,5 +1,6 @@
-# puc-rio-mvp-iii-data-science-analytics
-
+# PUC Rio - MVP Sprint III
+# Pós-graduação em Data Science & Analytics
+## Franncisco das Chagas Alves Freitas
 ## SUMÁRIO
 
 - OBJETIVOS
@@ -14,26 +15,31 @@
   - A - Sobre o Dota 2
 
 ## OBJETIVOS
+### Objetivo Geral
+Caracterizar um rank detalhado com os três heróis com o maior número de *kills* no jogo **Dota 2**;
 
-Comece pelo objetivo do seu trabalho. Antes de iniciar sua busca pelos dados, pense e descreva claramente qual problema deseja resolver com este MVP. Enumere as perguntas que deseja responder.
-
-É de extrema importância que esta etapa seja feita antes de iniciar qualquer outra etapa.
-
-Uma vez traçado o objetivo e conhecendo bem qual problema se deseja resolver, quais perguntas se deseja responder, é hora de iniciar a busca pelos dados.    
-
-Não é necessário atingir todos os objetivos desenhados nesta seção. Assim, não remova perguntas as quais não se conseguiu responder. Deixe a documentação do objetivo intacta e faça uma boa discussão do atingimento deste ao final do trabalho (vide Autoavaliação).
+### Objetivos Específicos
+- Identificar os três Heróis com a maior contagem de kills ordenados do maior para o menor;
+- Inferir a quantidade de usuários que utilizaram os heróis com maior pontuação de kills;
+- Inferir a quantidade de vezes em que os heróis obtiveram vitória em um dos lados da arena do jogo.
 
 ## DETALHAMENTO
 
 ### 1. Busca pelos Dados
 
-[Dota 2 Matches](https://www.kaggle.com/datasets/devinanzelmo/dota-2-matches)
+Para a realização deste trabalho os dados necessários para a análise foram retirados do repositório [Dota 2 Matches](https://www.kaggle.com/datasets/devinanzelmo/dota-2-matches) localizado na plataforma Kaggle.
 
 ### 2. Coleta
 
+Após a seleção dos conjuntos de arquivos - *players.csv*, *heroes.csv* e *matches.csv*, o download destes foi realizado para o computador local. Em seguida foi criado um **S3 Bucket** na **Amazon AWS**, onde o 
+upload dos arquivos citados anteriormente foram armazenados por meio de upload.
+
 ### 3. Modelagem
+Nesta etapa foi utilziado o **AWS Glue**, o qual ficou responsável pela extração, transformação e carga dos dados. 
 
 ### 4. Carga
+
+
 
 #### 4.1. Qualidade dos Dados
 
