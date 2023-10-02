@@ -3,8 +3,8 @@
 ## Franncisco das Chagas Alves Freitas
 ## SUMÁRIO
 
-- OBJETIVOS
-- DETALHAMENTO
+- [OBJETIVOS](https://github.com/sunfreitas/puc-rio-mvp-iii-data-science-analytics/tree/main#objetivos)
+- [DETALHAMENTO](https://github.com/sunfreitas/puc-rio-mvp-iii-data-science-analytics/tree/main#detalhamento)
   - Busca pelos Dados
   - Coleta
   - Modelagem
