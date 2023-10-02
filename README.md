@@ -53,7 +53,8 @@ Nesta etapa foi utilziado o **AWS Glue**, o qual ficou responsável pela extraç
 
 Os dados adquiridos no repositório [Dota 2 Matches](https://www.kaggle.com/datasets/devinanzelmo/dota-2-matches) a princípio não apresentou problemas de qualidade dos dados. Porém, o campo 
 **radiant_win**, que seria utilizado para calcular a quantidade de vitórias em um dos lados da arena do jogo, está definido com os valores True e False mas estão armazenados como strings.
-![Resultado Final](https://github.com/sunfreitas/puc-rio-mvp-iii-data-science-analytics/blob/main/Screenshot%20from%202023-10-01%2022-58-39.png)
+
+![](https://github.com/sunfreitas/puc-rio-mvp-iii-data-science-analytics/blob/main/Screenshot%20from%202023-10-02%2000-01-15.png)
 #### 4.2. Solução do Problema
 
 ![Resultado Final](https://github.com/sunfreitas/puc-rio-mvp-iii-data-science-analytics/blob/main/Screenshot%20from%202023-10-01%2022-58-39.png)
