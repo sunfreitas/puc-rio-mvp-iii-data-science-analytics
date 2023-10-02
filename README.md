@@ -44,6 +44,8 @@ Nesta etapa foi utilziado o **AWS Glue**, o qual ficou responsável pela extraç
 
 ### 4. Carga
 
+Segue abaixo as imagens dos campos que foram removidos, deixando apenas os que são necessários para resolver o fato proposto nos objetivos, assim como a alteração do tipos de dados destes campos.
+
 ![Resultado Final](https://github.com/sunfreitas/puc-rio-mvp-iii-data-science-analytics/blob/main/Screenshot%20from%202023-10-01%2022-59-55.png)
 
 
@@ -56,6 +58,8 @@ Os dados adquiridos no repositório [Dota 2 Matches](https://www.kaggle.com/data
 
 ![](https://github.com/sunfreitas/puc-rio-mvp-iii-data-science-analytics/blob/main/Screenshot%20from%202023-10-02%2000-01-15.png)
 #### 4.2. Solução do Problema
+
+Abaixo segue uma imagem da query realizada para criar o rank de heróis com mais kills, acompanhados da quantidade de kills e o número de jogadores que utilizaram o herói.
 
 ![Resultado Final](https://github.com/sunfreitas/puc-rio-mvp-iii-data-science-analytics/blob/main/Screenshot%20from%202023-10-01%2022-58-39.png)
 
