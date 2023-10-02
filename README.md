@@ -38,9 +38,9 @@ Após a seleção dos conjuntos de arquivos - *players.csv*, *heroes.csv* e *mat
 ![](https://github.com/sunfreitas/puc-rio-mvp-iii-data-science-analytics/blob/main/Screenshot%20from%202023-10-01%2023-00-52.png)
 
 ### 3. Modelagem
-Nesta etapa foi utilziado o **AWS Glue**, o qual ficou responsável pela extração, transformação e carga dos dados.
+Nesta etapa foi utilziado o **AWS Glue**, o qual ficou responsável pela extração, transformação e carga dos dados. Durante este processo, foi configurado um banco de dados **Redshift** sem servidor.
 
-![Resultado Final](https://github.com/sunfreitas/puc-rio-mvp-iii-data-science-analytics/blob/main/Screenshot%20from%202023-10-01%2022-58-39.png)
+![](https://github.com/sunfreitas/puc-rio-mvp-iii-data-science-analytics/blob/main/Screenshot%20from%202023-10-01%2023-57-26.png)
 
 ### 4. Carga
 
