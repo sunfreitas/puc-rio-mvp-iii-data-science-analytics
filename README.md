@@ -43,6 +43,9 @@ Nesta etapa foi utilziado o **AWS Glue**, o qual ficou responsável pela extraç
 
 #### 4.1. Qualidade dos Dados
 
+Os dados adquiridos no repositório [Dota 2 Matches](https://www.kaggle.com/datasets/devinanzelmo/dota-2-matches) a princípio não apresentou problemas de qualidade dos dados. Porém, o campo 
+**radiant_win**, que seria utilizado para calcular a quantidade de vitórias em um dos lados da arena do jogo, está definido com os valores True e False mas estão armazenados como strings.
+
 #### 4.2. Solução do Problema
 
 ## APÊNDICES
