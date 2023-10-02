@@ -29,7 +29,7 @@ Caracterizar um rank detalhado com os três heróis com o maior número de *kill
 
 Para a realização deste trabalho os dados necessários para a análise foram retirados do repositório [Dota 2 Matches](https://www.kaggle.com/datasets/devinanzelmo/dota-2-matches) localizado na plataforma Kaggle.
 
-![Resultado Final](https://github.com/sunfreitas/puc-rio-mvp-iii-data-science-analytics/blob/main/Screenshot%20from%202023-10-01%2022-58-39.png)
+![](https://github.com/sunfreitas/puc-rio-mvp-iii-data-science-analytics/blob/main/Screenshot%20from%202023-10-01%2023-47-00.png)
 
 ### 2. Coleta
 
