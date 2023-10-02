@@ -16,7 +16,7 @@
 
 ## OBJETIVOS
 ### Objetivo Geral
-Caracterizar um rank detalhado com os três heróis com o maior número de *kills* no jogo **Dota 2**;
+Caracterizar um rank detalhado com os três heróis com o maior número de *kills* no jogo **Dota 2** (Vide Apêndice A);
 
 ### Objetivos Específicos
 - Identificar os três Heróis com a maior contagem de kills ordenados do maior para o menor;
@@ -63,4 +63,4 @@ Os dados adquiridos no repositório [Dota 2 Matches](https://www.kaggle.com/data
 
 ### A - Sobre o Dota 2
 
-Lorem ipsum...
+Mais informações sobre o jogo podem ser encontradas no site oficial [https://www.dota2.com/home](https://www.dota2.com/home).
