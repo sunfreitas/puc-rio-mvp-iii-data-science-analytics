@@ -48,6 +48,8 @@ Os dados adquiridos no repositório [Dota 2 Matches](https://www.kaggle.com/data
 
 #### 4.2. Solução do Problema
 
+[Resultado Final](Screenshot from 2023-10-01 22-58-39.png)
+
 ## APÊNDICES
 
 ### A - Sobre o Dota 2
