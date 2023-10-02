@@ -46,6 +46,9 @@ Nesta etapa foi utilziado o **AWS Glue**, o qual ficou responsável pela extraç
 
 ![Resultado Final](https://github.com/sunfreitas/puc-rio-mvp-iii-data-science-analytics/blob/main/Screenshot%20from%202023-10-01%2022-59-55.png)
 
+
+![](https://github.com/sunfreitas/puc-rio-mvp-iii-data-science-analytics/blob/main/Screenshot%20from%202023-10-01%2023-00-02.png)
+
 #### 4.1. Qualidade dos Dados
 
 Os dados adquiridos no repositório [Dota 2 Matches](https://www.kaggle.com/datasets/devinanzelmo/dota-2-matches) a princípio não apresentou problemas de qualidade dos dados. Porém, o campo 
