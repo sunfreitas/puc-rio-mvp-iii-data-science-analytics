@@ -48,7 +48,7 @@ Os dados adquiridos no repositório [Dota 2 Matches](https://www.kaggle.com/data
 
 #### 4.2. Solução do Problema
 
-[Resultado Final](Screenshot from 2023-10-01 22-58-39.png)
+[Resultado Final](https://github.com/sunfreitas/puc-rio-mvp-iii-data-science-analytics/blob/main/Screenshot%20from%202023-10-01%2022-58-39.png)
 
 ## APÊNDICES
 
