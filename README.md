@@ -38,7 +38,8 @@ Após a seleção dos conjuntos de arquivos - *players.csv*, *heroes.csv* e *mat
 ![](https://github.com/sunfreitas/puc-rio-mvp-iii-data-science-analytics/blob/main/Screenshot%20from%202023-10-01%2023-00-52.png)
 
 ### 3. Modelagem
-Nesta etapa foi utilziado o **AWS Glue**, o qual ficou responsável pela extração, transformação e carga dos dados. Durante este processo, foi configurado um banco de dados **Redshift** sem servidor.
+Nesta etapa foi utilziado o **AWS Glue**, o qual ficou responsável pela extração, transformação e carga dos dados. Durante este processo, foi configurado um banco de 
+dados **Redshift** sem servidor. O modelo proposto para obter a tabela **fato** foi o *estrela*, levando em consideração as dimensões **heróis** e **matches**. Para cada fonte de dados (os três arquivos CSV) armazenados no bucket s3 foi realizada a transformação dos dados (vide imagem abaixo), e em seguida a carga destes em três tabelas no Redshift.
 
 ![](https://github.com/sunfreitas/puc-rio-mvp-iii-data-science-analytics/blob/main/Screenshot%20from%202023-10-01%2023-57-26.png)
 
