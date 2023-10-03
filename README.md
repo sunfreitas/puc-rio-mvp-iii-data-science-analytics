@@ -9,7 +9,7 @@
   - [Coleta](https://github.com/sunfreitas/puc-rio-mvp-iii-data-science-analytics/blob/main/README.md#2-coleta)
   - [Modelagem](https://github.com/sunfreitas/puc-rio-mvp-iii-data-science-analytics/blob/main/README.md#3-modelagem)
   - Carga
-      - a) Qualidade dos Dados
+      - a) [Qualidade dos Dados](https://github.com/sunfreitas/puc-rio-mvp-iii-data-science-analytics/blob/main/README.md#41-qualidade-dos-dados)
       - b) Solução do Problema
 - [APÊNDICES](https://github.com/sunfreitas/puc-rio-mvp-iii-data-science-analytics/blob/main/README.md#ap%C3%AAndices)
   - A - Sobre o Dota 2
