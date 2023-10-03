@@ -30,27 +30,32 @@ Caracterizar um rank detalhado com os três heróis com o maior número de *kill
 Para a realização deste trabalho os dados necessários para a análise foram retirados do repositório [Dota 2 Matches](https://www.kaggle.com/datasets/devinanzelmo/dota-2-matches) localizado na plataforma Kaggle.
 
 ![](https://github.com/sunfreitas/puc-rio-mvp-iii-data-science-analytics/blob/main/Screenshot%20from%202023-10-01%2023-47-00.png)
+**Imagem 1. Repositório de dados Dota 2 Matches localizado no Kaggle.**
 
 ### 2. Coleta
 
 Após a seleção dos conjuntos de arquivos - *players.csv*, *heroes.csv* e *matches.csv*, o download destes foi realizado para o computador local. Em seguida foi criado um **S3 Bucket** na **Amazon AWS**, onde o upload dos arquivos citados anteriormente foram armazenados por meio de upload.
 
 ![](https://github.com/sunfreitas/puc-rio-mvp-iii-data-science-analytics/blob/main/Screenshot%20from%202023-10-01%2023-00-52.png)
+**Imagem 2. Bucket S3 com os arquivos matches.csv, heroes.csv e players.csv.**
 
 ### 3. Modelagem
 Nesta etapa foi utilziado o **AWS Glue**, o qual ficou responsável pela extração, transformação e carga dos dados. Durante este processo, foi configurado um banco de 
-dados **Redshift** sem servidor. O modelo proposto para obter a tabela **fato** foi o *estrela*, levando em consideração as dimensões **heróis** e **matches**. Para cada fonte de dados (os três arquivos CSV) armazenados no bucket s3 foi realizada a transformação dos dados (vide imagem abaixo), e em seguida a carga destes em três tabelas no Redshift.
+dados **Redshift** sem servidor. O modelo proposto para obter a tabela **fato** foi o *estrela*, levando em consideração as dimensões **heróis** e **matches**. Para cada fonte de dados (os três arquivos CSV) armazenados no bucket s3 foi realizada a transformação dos dados (Imagem 4), e em seguida a carga destes em três tabelas no Redshift.
 
 ![](https://github.com/sunfreitas/puc-rio-mvp-iii-data-science-analytics/blob/main/Screenshot%20from%202023-10-01%2023-57-26.png)
+**Imagem 3. Criação do job utilizando AWS Glue Studio.**
 
 ### 4. Carga
 
 Segue abaixo as imagens dos campos que foram removidos, deixando apenas os que são necessários para resolver o fato proposto nos objetivos, assim como a alteração do tipos de dados destes campos.
 
 ![Resultado Final](https://github.com/sunfreitas/puc-rio-mvp-iii-data-science-analytics/blob/main/Screenshot%20from%202023-10-01%2022-59-55.png)
+**Imagem 4. Remoção de atributos e modificação dos tipos de dados na camada de transformação do job.**
 
 
 ![](https://github.com/sunfreitas/puc-rio-mvp-iii-data-science-analytics/blob/main/Screenshot%20from%202023-10-01%2023-00-02.png)
+**Imagem 5. Atributos da tabela 'heroes' a serem transformados no job.**
 
 #### 4.1. Qualidade dos Dados
 
