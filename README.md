@@ -6,7 +6,7 @@
 - [OBJETIVOS](https://github.com/sunfreitas/puc-rio-mvp-iii-data-science-analytics/tree/main#objetivos)
 - [DETALHAMENTO](https://github.com/sunfreitas/puc-rio-mvp-iii-data-science-analytics/tree/main#detalhamento)
   - [Busca pelos Dados](https://github.com/sunfreitas/puc-rio-mvp-iii-data-science-analytics/blob/main/README.md#1-busca-pelos-dados)
-  - Coleta
+  - [Coleta](https://github.com/sunfreitas/puc-rio-mvp-iii-data-science-analytics/blob/main/README.md#2-coleta)
   - Modelagem
   - Carga
       - a) Qualidade dos Dados
