@@ -12,7 +12,7 @@
       - a) [Qualidade dos Dados](https://github.com/sunfreitas/puc-rio-mvp-iii-data-science-analytics/blob/main/README.md#41-qualidade-dos-dados)
       - b) [Solução do Problema](https://github.com/sunfreitas/puc-rio-mvp-iii-data-science-analytics/blob/main/README.md#42-solu%C3%A7%C3%A3o-do-problema)
 - [APÊNDICES](https://github.com/sunfreitas/puc-rio-mvp-iii-data-science-analytics/blob/main/README.md#ap%C3%AAndices)
-  - A - Sobre o Dota 2
+  - A - [Sobre o Dota 2](https://github.com/sunfreitas/puc-rio-mvp-iii-data-science-analytics/blob/main/README.md#a---sobre-o-dota-2)
 
 ## OBJETIVOS
 ### Objetivo Geral
