@@ -7,7 +7,7 @@
 - [DETALHAMENTO](https://github.com/sunfreitas/puc-rio-mvp-iii-data-science-analytics/tree/main#detalhamento)
   - [Busca pelos Dados](https://github.com/sunfreitas/puc-rio-mvp-iii-data-science-analytics/blob/main/README.md#1-busca-pelos-dados)
   - [Coleta](https://github.com/sunfreitas/puc-rio-mvp-iii-data-science-analytics/blob/main/README.md#2-coleta)
-  - Modelagem
+  - [Modelagem](https://github.com/sunfreitas/puc-rio-mvp-iii-data-science-analytics/blob/main/README.md#3-modelagem)
   - Carga
       - a) Qualidade dos Dados
       - b) Solução do Problema
